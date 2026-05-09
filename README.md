@@ -1,23 +1,41 @@
 # Psychia Mind Model
 
-Psychia Mind Model is an experimental computational framework that models human psychological regulation across three layers:
+This repository presents a prototype of **Meditias**, multimodal intervention units designed to modulate human psychological states.
 
-- Physiological
-- Emotional
-- Cognitive
+In this initial implementation, Meditias are represented as **sound-based stimuli**, parametrized to affect:
 
-The system represents mental states as structured data and applies parameterized interventions to simulate regulation processes.
-
-The goal is to explore how psychological wellbeing interventions can be modeled as computational transformations.
+- Physiological state (activation, relaxation)
+- Emotional state (affective modulation)
+- Cognitive state (attention, reflection)
 
 ---
 
-## Core idea
+## Concept
 
-State → Detection → Intervention → Updated State
+A Meditia is a structured stimulus defined by parameters such as rhythm, intensity, and emotional signature.
+
+These parameters are used to simulate their effect on a user state model.
+
+---
+
+## Scope of this version
+
+This version focuses on **sound-based Meditias**, including:
+
+- Pulses and rhythmic patterns
+- Musical textures
+- Emotional sound signatures
+
+Future versions may include visual and multimodal Meditias.
+
+---
+
+## Purpose
+
+This project explores how psychological modulation can be modeled as parameterized digital stimuli in computational systems.
 
 ---
 
 ## Status
 
-Prototype for research and conference presentation.
+Research prototype for academic and conference presentation.
